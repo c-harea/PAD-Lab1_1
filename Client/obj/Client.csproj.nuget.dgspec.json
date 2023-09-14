@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Docs\\UTM Folder\\Anul 4\\PAD\\Lab1\\GrpcApp\\Client\\Client.csproj": {}
+    "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\GrpcApp\\Client\\Client.csproj": {}
   },
   "projects": {
-    "D:\\Docs\\UTM Folder\\Anul 4\\PAD\\Lab1\\GrpcApp\\Broker\\Broker.csproj": {
+    "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\GrpcApp\\Broker\\Broker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Docs\\UTM Folder\\Anul 4\\PAD\\Lab1\\GrpcApp\\Broker\\Broker.csproj",
+        "projectUniqueName": "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\GrpcApp\\Broker\\Broker.csproj",
         "projectName": "Broker",
-        "projectPath": "D:\\Docs\\UTM Folder\\Anul 4\\PAD\\Lab1\\GrpcApp\\Broker\\Broker.csproj",
-        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
-        "outputPath": "D:\\Docs\\UTM Folder\\Anul 4\\PAD\\Lab1\\GrpcApp\\Broker\\obj\\",
+        "projectPath": "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\GrpcApp\\Broker\\Broker.csproj",
+        "packagesPath": "C:\\Users\\Cristian\\.nuget\\packages\\",
+        "outputPath": "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\GrpcApp\\Broker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Visual Studio\\sdk\\NuGetPackages"
+          "A:\\Visual Studio\\packages\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cristian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,13 +26,16 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\GrpcApp\\Receiver\\Receiver.csproj": {
+                "projectPath": "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\GrpcApp\\Receiver\\Receiver.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -55,7 +58,7 @@
             },
             "Grpc.AspNetCore": {
               "target": "Package",
-              "version": "[2.27.0, )"
+              "version": "[2.40.0, )"
             },
             "Grpc.Net.Client": {
               "target": "Package",
@@ -87,24 +90,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Docs\\UTM Folder\\Anul 4\\PAD\\Lab1\\GrpcApp\\Client\\Client.csproj": {
+    "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\GrpcApp\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Docs\\UTM Folder\\Anul 4\\PAD\\Lab1\\GrpcApp\\Client\\Client.csproj",
+        "projectUniqueName": "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\GrpcApp\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "D:\\Docs\\UTM Folder\\Anul 4\\PAD\\Lab1\\GrpcApp\\Client\\Client.csproj",
-        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
-        "outputPath": "D:\\Docs\\UTM Folder\\Anul 4\\PAD\\Lab1\\GrpcApp\\Client\\obj\\",
+        "projectPath": "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\GrpcApp\\Client\\Client.csproj",
+        "packagesPath": "C:\\Users\\Cristian\\.nuget\\packages\\",
+        "outputPath": "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\GrpcApp\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Visual Studio\\sdk\\NuGetPackages"
+          "A:\\Visual Studio\\packages\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cristian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -113,15 +116,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Docs\\UTM Folder\\Anul 4\\PAD\\Lab1\\GrpcApp\\Broker\\Broker.csproj": {
-                "projectPath": "D:\\Docs\\UTM Folder\\Anul 4\\PAD\\Lab1\\GrpcApp\\Broker\\Broker.csproj"
+              "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\GrpcApp\\Broker\\Broker.csproj": {
+                "projectPath": "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\GrpcApp\\Broker\\Broker.csproj"
               }
             }
           }
@@ -143,6 +145,10 @@
             "Grpc": {
               "target": "Package",
               "version": "[2.46.6, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.40.0, )"
             },
             "Grpc.Net.Client": {
               "target": "Package",
@@ -171,7 +177,93 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\GrpcApp\\Receiver\\Receiver.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\GrpcApp\\Receiver\\Receiver.csproj",
+        "projectName": "Receiver",
+        "projectPath": "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\GrpcApp\\Receiver\\Receiver.csproj",
+        "packagesPath": "C:\\Users\\Cristian\\.nuget\\packages\\",
+        "outputPath": "D:\\Docs\\UTM\\Anul 4\\PAD\\Lab1\\GrpcApp\\Receiver\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "A:\\Visual Studio\\packages\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Cristian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.24.3, )"
+            },
+            "Grpc": {
+              "target": "Package",
+              "version": "[2.46.6, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.40.0, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.57.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.58.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

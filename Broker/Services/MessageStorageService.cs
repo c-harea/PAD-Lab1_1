@@ -8,6 +8,11 @@ namespace Broker.Services
     {
         private readonly ConcurrentQueue<Message> _messages;
 
+        public MessageStorageService()
+        {
+           _messages = new ConcurrentQueue<Message>();
+        }
+
         public void Add(Message message)
         {
             _messages.Enqueue(message);

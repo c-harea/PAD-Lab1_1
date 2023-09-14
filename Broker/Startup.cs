@@ -24,6 +24,8 @@ namespace Broker
             });
 
             services.AddSingleton<IMessageStorageService, MessageStorageService>();
+            services.AddSingleton<IConnectionStorageServices, ConnectionStorageService>();
+            services.AddHostedService<SenderWorker>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,6 +41,7 @@ namespace Broker
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGrpcService<PublisherService>();
+                endpoints.MapGrpcService<SubscriberService>();
 
                 endpoints.MapGet("/", async context =>
                 {

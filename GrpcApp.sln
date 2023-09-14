@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Broker", "Broker\Broker.csproj", "{CC1C7F14-C282-42E8-A9C5-04BE4737ACC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Broker", "Broker\Broker.csproj", "{CC1C7F14-C282-42E8-A9C5-04BE4737ACC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{9FEB2929-FF8B-41F4-A386-A6583E6DE295}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csproj", "{9FEB2929-FF8B-41F4-A386-A6583E6DE295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver", "Receiver\Receiver.csproj", "{BAC3808A-81E0-491B-9546-BD800FEAC3C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9FEB2929-FF8B-41F4-A386-A6583E6DE295}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FEB2929-FF8B-41F4-A386-A6583E6DE295}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FEB2929-FF8B-41F4-A386-A6583E6DE295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC3808A-81E0-491B-9546-BD800FEAC3C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC3808A-81E0-491B-9546-BD800FEAC3C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC3808A-81E0-491B-9546-BD800FEAC3C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC3808A-81E0-491B-9546-BD800FEAC3C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
