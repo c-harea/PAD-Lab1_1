@@ -23,6 +23,9 @@ namespace Receiver
 
             Subscribe(host);
 
+            Console.WriteLine("Press enter to exit.");
+            Console.ReadLine();
+
         }
 
         private static void Subscribe(IWebHost host)
